@@ -1,5 +1,5 @@
  (function() {
-        window.loadIframe = function(url, containerId) {
+        window.load = function(url, containerId) {
             const iframeContainer = document.getElementById(containerId);
             const iframe = document.createElement('iframe');
             
